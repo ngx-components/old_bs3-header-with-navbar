@@ -1,0 +1,12 @@
+header.site-header
+    nav.navbar.navbar-default(role='navigation', ng-controller="NavBarCtrl")
+        .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-collapse-01')
+                span.sr-only Toggle navigation
+            a.navbar-brand(ui-sref="home")= siteTitle
+        #navbar-collapse-01.collapse.navbar-collapse
+            ul.nav.navbar-nav
+                li
+                    a(href='#fakelink') Home
+                li
+                    a(href='#fakelink') About
