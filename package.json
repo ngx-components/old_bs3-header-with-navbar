@@ -1,10 +1,10 @@
 {
-  "name": "my-ngx-component",
+  "name": "ngx-component-bs3-header-with-navbar",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Jurgen Van de Moere",
+    "email": "jurgen.van.de.moere@gmail.com"
   },
   "dependencies": {},
   "devDependencies": {
